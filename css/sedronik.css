@@ -73,8 +73,8 @@
 position: relative;
 width: 1440px;
 height: 900px;
-background: #222222; 
-color: blanchedalmond;
+background: rgb(4, 4, 48) ;
+color: floralwhite;
 }
 
 .header {
@@ -85,10 +85,31 @@ color: blanchedalmond;
 .nav {
     justify-content: flex-end;
 }
+.links{
+    color: white;
+}
+.links:hover{
+    color: darkblue;
+}
+.pattern {
+    background-size: contain;
+    background-image: url('./background.jpg');
+    height: 50vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: unset;
+    opacity: 0.5;
+    box-shadow: #222222;
+}
 .my-card{
     display: -webkit-flex;
     justify-content: space-between;
     
+}
+.cardi {
+    background-color: black;
 }
 .covered{
     display: -webkit-flex;
@@ -98,9 +119,9 @@ color: blanchedalmond;
     border: none;
 }
 .built {
-    justify-content: space-evenly;
-    padding: 150px;
+    padding: 50px;
     text-decoration: underline;
+    text-align: start;
     
 }
  .last > h1 {
@@ -108,11 +129,13 @@ color: blanchedalmond;
     text-align: center;
     font-weight: bold;
     padding-right: 15px;
+    
 }
 .last{
     display: -webkit-flex;
     justify-content: space-between;
     padding: 10px;
+    background-color:rgb(4, 4, 48);
 }
 .last > h5 {
     display: -webkit-flex;

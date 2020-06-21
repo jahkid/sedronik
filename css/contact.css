@@ -1,5 +1,9 @@
+.body {
+    background-color: rgb(4, 4, 48);
+}
 .container{
     font-family: Roboto, sans-serif;
+    background-color: skyblue;
 }
 .container  h1 {
     font-size: 55px;
@@ -9,7 +13,7 @@
     font-size: 30px;
 }
 input{
-    background: silver;
+    background:silver
 }
 .contact {
     width: 100%;
@@ -29,7 +33,7 @@ input{
     width: 80%;
 }
 .left-contact span{
-
+background-color: slateblue;
 }
 span input{
     width: 45%;
