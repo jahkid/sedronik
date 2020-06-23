@@ -145,3 +145,8 @@ color: floralwhite;
 #links{
     color: blanchedalmond;
 }
+footer {
+    border-top:darkblue 2px solid;
+    padding-top: 80px;
+    display: block;
+}
