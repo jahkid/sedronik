@@ -73,7 +73,7 @@
 position: relative;
 width: 1440px;
 height: 900px;
-background: rgb(4, 4, 48) ;
+background: rgba(0, 0, 0, 0.932);
 color: floralwhite;
 }
 
@@ -81,6 +81,7 @@ color: floralwhite;
     padding-top: 50px;
     display: -webkit-flex;
     justify-content: space-between;
+    text-decoration: blanchedalmond;
 }
 .nav {
     justify-content: flex-end;
@@ -135,7 +136,7 @@ color: floralwhite;
     display: -webkit-flex;
     justify-content: space-between;
     padding: 10px;
-    background-color:rgb(4, 4, 48);
+    background-color:black;
 }
 .last > h5 {
     display: -webkit-flex;
