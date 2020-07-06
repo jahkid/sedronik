@@ -19,7 +19,7 @@
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
   }
-  
+
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
     .col-1 {width: 8.33%;}
@@ -33,9 +33,9 @@
     .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;} 
-  } 
-  
+    .col-12 {width: 100%;}
+  }
+
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
   .col-1 {width: 8.33%;}
@@ -50,8 +50,8 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  } 
-  
+  }
+
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
   .col-1 {width: 8.33%;}
@@ -107,7 +107,7 @@ color: floralwhite;
 .my-card{
     display: -webkit-flex;
     justify-content: space-between;
-    
+
 }
 .cardi {
     background-color: black;
@@ -123,14 +123,14 @@ color: floralwhite;
     padding: 50px;
     text-decoration: underline;
     text-align: start;
-    
+
 }
  .last > h1 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
     padding-right: 15px;
-    
+
 }
 .last{
     display: -webkit-flex;
@@ -141,6 +141,11 @@ color: floralwhite;
 .last > h5 {
     display: -webkit-flex;
     align-items: center;
+}
+
+.foot {
+    font-size: medium;
+    font-weight: lighter;
 }
 #links{
     color: blanchedalmond;
